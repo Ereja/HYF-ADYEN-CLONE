@@ -146,7 +146,6 @@ p {
   background: #f3f6f9;
   text-align: center;
   padding-top: 96px;
-  padding-bottom: 48px;
 }
 
 .information-flex {
@@ -156,10 +155,20 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 .information-container img {
   width: 40px;
   height: 40px;
+}
+
+.white-space img {
+  height: 96px;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: -25px;
 }
 
 /*STYLE FOR PAYMENT INFORMATION SECTION*/
@@ -170,11 +179,52 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
+.payments-info h2,
+.payments-info p,
+.payments-info button {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
 .payments-info img {
   width: 576px;
   height: auto;
   padding: 0 24px;
 }
+
+/*TRANSACTIONS SECTION STYLES*/
+
+.transactions {
+  background: #00112c;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.transactions h2,
+.transactions h5,
+.transactions p {
+  color: #fff;
+}
+
+.transactions img {
+  width: 20px;
+}
+
+.transactions-video {
+  flex-basis: 48%;
+}
+
+.transactions-right {
+  flex-basis: 48%;
+}
+
+.transactions-info {
+  flex-basis: 23%;
+}
+
+/*JOURNEY SECTION STYLE*/
