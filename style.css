@@ -90,3 +90,81 @@ h1 {
     width: 160px;
     height: 70px;
 }
+
+/*STYLES FOR INFORMATION ABOUT POSSIBILITIES WITH ADYEN*/
+
+.information-container {
+    background: #f3f6f9;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 48px;
+
+}
+
+.information-flex {
+    max-width: 1248px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.information-container img {
+    width: 40px;
+    height: 40px;
+}
+
+.information-container h3 {
+   font-size: 32px;
+   line-height: 42px;
+   font-weight: 600;
+   padding: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 24px;
+}
+
+
+
+.informatio-button {
+    color: #0abf53;
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.informatio-button a:visited {
+    color: #0abf53;
+}
+
+
+/*STYLE FOR PAYMENT INFORMATION SECTION*/
+
+.payment-flex {
+    max-width: 1248px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.payments-info img {
+    width: 576px;
+    height: auto;
+    padding: 0 24px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
