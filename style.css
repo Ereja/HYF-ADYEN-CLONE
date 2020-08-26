@@ -271,3 +271,17 @@ p {
 }
 
 /*JOURNEY SECTION STYLE*/
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 1248px) {
+  .fa-bars {
+    display: none;
+  }
+}
+
+@media (max-width: 1247px) {
+  .nav-left li:nth-child(n+2) {
+    display: none;
+  }
+}
