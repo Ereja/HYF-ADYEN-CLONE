@@ -175,8 +175,6 @@ p {
 .landing {
   margin: 0 auto;
   max-width: 1248px;
-  padding-right: 24px;
-  padding-left: 24px;
 }
 
 .landing-flex {
@@ -185,12 +183,11 @@ p {
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin-left: -24px;
-  margin-right: -24px;
 }
 
 .landing-info {
-  flex-basis: 50%;
+  padding-left: 24px;
+  flex-basis: 45%;
 }
 
 .landing-video {
@@ -201,7 +198,6 @@ p {
   width: 100%;
   height: auto;
   object-fit: contain;
-  padding: 0 24px;
 }
 
 .brands-logo {
@@ -277,7 +273,6 @@ p {
   width: 100%;
   max-width: 100%;
   height: auto;
-  padding-right: 24px;
   margin: 30px 0;
 }
 
@@ -287,11 +282,12 @@ p {
 }
 
 .payment-left {
-  padding-right: 24px;
+ padding-left: 24px;
 }
 
 .payment-right {
-  padding-left: 24px;
+  padding-left: 48px;
+  padding-right: 24px;
 }
 
 .payment-flex p {
@@ -334,7 +330,6 @@ p {
 .transactions-video video {
   width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .transactions-video {
