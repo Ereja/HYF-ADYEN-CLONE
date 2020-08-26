@@ -66,14 +66,12 @@ p {
   padding: 24px;
 }
 
-
-
 /*STYLES FOR NAV BAR*/
 .wrapper {
-    margin: 0 auto;
-    max-width: 1248px;
-    padding-right: 24px;
-    padding-left: 24px;
+  margin: 0 auto;
+  max-width: 1248px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .nav-left {
   height: 72px;
@@ -88,22 +86,18 @@ p {
   background: #fff;
 }
 
-
-.nav-left li:nth-child(n+2) a:hover {
+.nav-left li:nth-child(n + 2) a:hover {
   border-top: 4px solid transparent;
   border-color: #0abf53;
   padding-bottom: 22px;
   padding-top: 20px;
-
 }
-
 
 .nav-left li:nth-last-child(1) a:hover {
   border-top: 4px solid transparent;
   border-color: transparent;
   padding-bottom: 22px;
   padding-top: 20px;
-
 }
 
 .nav-left li:nth-child(5) {
@@ -134,7 +128,7 @@ p {
   color: #fff;
   background-color: #078f3e;
   border-color: #078f3e;
-   transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .informatio-button {
   color: #0abf53;
@@ -158,7 +152,6 @@ p {
   padding-bottom: 12px;
 }
 
-
 .outro-button {
   padding: 12px 24px;
   margin: 0;
@@ -176,19 +169,18 @@ p {
 }
 
 .outro-button:hover {
-    cursor: pointer;
-    background-color: #1b2b44;
-    border-color: #1b2b44;
+  cursor: pointer;
+  background-color: #1b2b44;
+  border-color: #1b2b44;
 }
-
 
 /*STYLES FOR LANDING SECTION*/
 
 .landing {
-    margin: 0 auto;
-    max-width: 1248px;
-    padding-right: 24px;
-    padding-left: 24px;
+  margin: 0 auto;
+  max-width: 1248px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .landing-flex {
@@ -290,7 +282,8 @@ p {
   margin: 30px 0;
 }
 
-.payment-left, .payment-right {
+.payment-left,
+.payment-right {
   max-width: 576px;
   flex-basis: 50%;
 }
@@ -311,7 +304,6 @@ p {
   padding-bottom: 48px;
 }
 
-
 /*TRANSACTIONS SECTION STYLES*/
 
 .transactions-wrapper {
@@ -321,6 +313,7 @@ p {
 
 .transactions {
   width: 90%;
+  max-width: 1248px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -353,7 +346,6 @@ p {
   margin-bottom: 24px;
 }
 
-
 /*JOURNEY SECTION STYLE*/
 
 .outro-section {
@@ -364,6 +356,124 @@ p {
   padding-bottom: 96px;
 }
 
+/*FOOTER STYLES*/
+
+footer {
+  padding-top: 96px;
+  padding-bottom: 0;
+  background: #00112c;
+  color: #fff;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-container li {
+  padding-bottom: 6px;
+}
+
+.footer-container li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 {
+  flex-basis: 18%;
+}
+
+.newslettter {
+  flex-basis: 28%;
+}
+
+.newslettter form input {
+  width: 83%;
+  background: transparent;
+  margin: 15px 0;
+}
+
+.newslettter form button {
+  cursor: pointer;
+  width: 15%;
+}
+
+.newslettter form input,
+.newslettter form button {
+  position: relative;
+  height: 50px;
+  border: 1px solid #a5afbd;
+  padding: 24px 12px 6px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.newslettter p {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.newslettter ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  border: 3px solid #374661;
+  margin-right: 12px;
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.493);
+  width: 44px;
+  height: 44px;
+}
+
+.newslettter ul li:hover {
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+span {
+  font-weight: 600;
+}
+
+.copyright,
+.language-select {
+  width: 50%;
+}
+
+.copyright ul li {
+  display: inline;
+}
+
+.language-select {
+  text-align: right;
+}
+
+.language-select .fas {
+  color: #0abf53;
+}
+
+.break-line {
+  min-height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.315);
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 24px 0;
+}
 
 /*MEDIA QUERIES*/
 
@@ -374,7 +484,7 @@ p {
 }
 
 @media (max-width: 1247px) {
-  .nav-left li:nth-child(n+2) {
+  .nav-left li:nth-child(n + 2) {
     display: none;
   }
 }
