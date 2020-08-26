@@ -66,15 +66,15 @@ p {
   padding: 24px;
 }
 
+
+
+/*STYLES FOR NAV BAR*/
 .wrapper {
     margin: 0 auto;
     max-width: 1248px;
     padding-right: 24px;
     padding-left: 24px;
 }
-
-/*STYLES FOR NAV BAR*/
-
 .nav-left {
   height: 72px;
   top: 0;
@@ -85,7 +85,6 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
   background: #fff;
 }
 
@@ -135,6 +134,7 @@ p {
   color: #fff;
   background-color: #078f3e;
   border-color: #078f3e;
+   transition: all .2s ease-in-out;
 }
 .informatio-button {
   color: #0abf53;
@@ -150,20 +150,39 @@ p {
   color: #0abf53;
 }
 
+.informatio-button a:hover {
+  color: #0abf53;
+  box-shadow: none;
+  border-bottom: 1px solid transparent;
+  border-color: #0abf53;
+  padding-bottom: 12px;
+}
+
+
 /*STYLES FOR LANDING SECTION*/
 
 .landing {
-  max-width: 1248px;
-  width: 100%;
-  margin: 0 auto;
+    margin: 0 auto;
+    max-width: 1248px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .landing-flex {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
+.landing-info {
+  flex-basis: 50;
+}
+
+.landing-video {
+  flex-basis: 50;
 }
 
 .landing-video video {
@@ -174,6 +193,7 @@ p {
 
 .brands-logo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 48px;
 }
@@ -226,8 +246,7 @@ p {
 }
 
 .payments-info h2,
-.payments-info p,
-.payments-info button {
+.center-text {
   width: 50%;
   margin: 0 auto;
   text-align: center;
@@ -236,6 +255,10 @@ p {
   width: 576px;
   height: auto;
   padding: 0 24px;
+}
+
+.center-button {
+  text-align: center;
 }
 
 /*TRANSACTIONS SECTION STYLES*/
