@@ -291,18 +291,26 @@ p {
 
 /*TRANSACTIONS SECTION STYLES*/
 
-.transactions {
+.transactions-wrapper {
   background: #00112c;
+  padding-bottom: 48px;
+}
+
+.transactions {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .transactions h2,
 .transactions h5,
 .transactions p {
   color: #fff;
+  text-align: left;
+  padding-left: 0;
 }
 
 .transactions img {
@@ -314,12 +322,14 @@ p {
 }
 
 .transactions-right {
-  flex-basis: 48%;
+  flex-basis: 32%;
 }
 
 .transactions-info {
   flex-basis: 23%;
+  margin-bottom: 24px;
 }
+
 
 /*JOURNEY SECTION STYLE*/
 
