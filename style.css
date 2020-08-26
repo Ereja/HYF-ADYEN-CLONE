@@ -66,7 +66,50 @@ p {
   padding: 24px;
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 1248px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
 /*STYLES FOR NAV BAR*/
+
+.nav-left {
+  height: 72px;
+  top: 0;
+  width: 100%;
+  max-width: 1248px;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  background: #fff;
+}
+
+
+.nav-left li:nth-child(n+2) a:hover {
+  border-top: 4px solid transparent;
+  border-color: #0abf53;
+  padding-bottom: 22px;
+  padding-top: 20px;
+
+}
+
+
+.nav-left li:nth-last-child(1) a:hover {
+  border-top: 4px solid transparent;
+  border-color: transparent;
+  padding-bottom: 22px;
+  padding-top: 20px;
+
+}
+
+.nav-left li:nth-child(5) {
+  margin-right: 177px;
+}
 
 .nav-left img {
   width: 100px;
