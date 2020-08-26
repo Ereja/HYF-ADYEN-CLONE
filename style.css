@@ -191,7 +191,8 @@ p {
 }
 
 .landing-video {
-  flex-basis: 50%;
+  flex-basis: 42%;
+  margin-left: 40px;
 }
 
 .landing-video video {
@@ -208,7 +209,8 @@ p {
 }
 
 .brands-logo img {
-  width: 160px;
+  max-width: 100%;
+  width: 140px;
   height: 70px;
 }
 
@@ -224,6 +226,7 @@ p {
 .information-flex {
   max-width: 1248px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -234,13 +237,16 @@ p {
   height: 40px;
 }
 
+.growth-flex {
+  flex-basis: 32%;
+} 
+
 .white-space img {
   display: block;
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
-  height: 96px;
-  position: relative;
+  height: 95px;
 }
 
 /*STYLE FOR PAYMENT INFORMATION SECTION*/
@@ -249,6 +255,7 @@ p {
   max-width: 1248px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -282,7 +289,7 @@ p {
 }
 
 .payment-left {
- padding-left: 24px;
+  padding-left: 48px;
 }
 
 .payment-right {
@@ -376,6 +383,7 @@ footer a:visited {
   padding-left: 24px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .footer-container li {
@@ -399,14 +407,14 @@ footer a:visited {
 }
 
 .newslettter form input {
-  width: 83%;
+  flex-basis: 83%;
   background: transparent;
   margin: 15px 0;
 }
 
 .newslettter form button {
   cursor: pointer;
-  width: 15%;
+  flex-basis: 15%;
 }
 
 .newslettter form input,
@@ -450,7 +458,7 @@ span {
 
 .copyright,
 .language-select {
-  width: 50%;
+  flex-basis: 50%;
 }
 
 .copyright ul li {
@@ -486,4 +494,76 @@ span {
   .nav-left li:nth-child(n + 2) {
     display: none;
   }
+  .fa-bars {
+    padding: 35px 24px;
+    right: 0;
+    font-size: 24px;
+    color: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-info {
+    margin-top: 24px;
+    flex-basis: 100%;
+  }
+
+  .landing-video {
+    flex-basis: 100%;
+    padding: 0 24px;
+    margin: 0;
+  }
+
+  .brands-logo img {
+    width: 33%;
+  }
+
+  .growth-flex {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .white-space img {
+    display: none;
+  }
+
+  .payments-info {
+    margin-top: 48px;
+  }
+
+  .payments-info h2,
+  .center-text {
+    flex-basis: 100%;
+  }
+
+  .payment-left,
+  .payment-right {
+    flex-basis: 100%;
+    padding: 0 24px;
+  }
+
+  .transactions-video,
+  .transactions-right,
+  .transactions-info {
+    flex-basis: 100%;
+  }
+
+  .footer-1,
+  .footer-2,
+  .footer-3,
+  .footer-4 {
+    flex-basis: 50%;
+    margin-bottom: 25px;
+  }
+
+  .newslettter {
+  flex-basis: 70%;
+}
+
+.copyright,
+.language-select {
+  flex-basis: 100%;
+  text-align: left;
+}
+
 }
