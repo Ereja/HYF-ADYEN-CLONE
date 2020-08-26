@@ -159,6 +159,29 @@ p {
 }
 
 
+.outro-button {
+  padding: 12px 24px;
+  margin: 0;
+  background-color: #00112c;
+  border-color: #00112c;
+}
+
+.outro-button a {
+  display: inline-block;
+  color: #fff;
+  line-height: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 12px 12px 12px 0;
+}
+
+.outro-button:hover {
+    cursor: pointer;
+    background-color: #1b2b44;
+    border-color: #1b2b44;
+}
+
+
 /*STYLES FOR LANDING SECTION*/
 
 .landing {
@@ -332,6 +355,15 @@ p {
 
 
 /*JOURNEY SECTION STYLE*/
+
+.outro-section {
+  background-color: #0abf53;
+  color: #fff;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 
 /*MEDIA QUERIES*/
 
