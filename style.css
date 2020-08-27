@@ -202,15 +202,15 @@ p {
 }
 
 .brands-logo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .brands-logo img {
-  max-width: 100%;
-  width: 140px;
+  width: 100%;
+  max-width: 160px;
   height: 70px;
 }
 
@@ -310,6 +310,7 @@ p {
 .transactions-wrapper {
   background: #00112c;
   padding-bottom: 48px;
+  padding-top: 48px;
 }
 
 .transactions {
@@ -414,8 +415,10 @@ footer a:visited {
 }
 
 .newslettter form button {
+  position: relative;
   cursor: pointer;
   width: 15%;
+  left: -5px;
 }
 
 .newslettter form input,
@@ -515,8 +518,8 @@ span {
     margin: 0;
   }
 
-  .brands-logo img {
-    width: 33%;
+  .brands-logo {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .growth-flex {
@@ -561,5 +564,9 @@ span {
   .language-select {
     flex-basis: 100%;
     text-align: left;
+  }
+
+  .newslettter {
+    flex-basis: 60%;
   }
 }
