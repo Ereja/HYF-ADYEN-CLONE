@@ -136,6 +136,10 @@ p {
   font-size: 1rem;
 }
 
+.informatio-button a:link {
+  color: #0abf53;
+}
+
 .informatio-button a:visited {
   color: #0abf53;
 }
@@ -168,6 +172,15 @@ p {
   cursor: pointer;
   background-color: #1b2b44;
   border-color: #1b2b44;
+}
+
+footer a:link {
+  color: #fff;
+}
+
+.footer-container li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 /*STYLES FOR LANDING SECTION*/
@@ -390,11 +403,6 @@ footer a:visited {
 
 .footer-container li {
   padding-bottom: 6px;
-}
-
-.footer-container li a:hover {
-  color: #fff;
-  text-decoration: underline;
 }
 
 .footer-1,
