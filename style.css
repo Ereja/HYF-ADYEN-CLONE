@@ -174,11 +174,11 @@ p {
   border-color: #1b2b44;
 }
 
-footer a:link {
+.footer-container li a:link {
   color: #fff;
 }
 
-footer a:visited {
+.footer-container li a:visited {
   color: #fff;
 }
 
