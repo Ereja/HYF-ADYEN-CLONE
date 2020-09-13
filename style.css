@@ -9,43 +9,46 @@
   text-decoration: none;
 }
 
+html{ 
+  font-size: 62.5%; /*making sure that 1rem = 10px*/
+}
+
 body {
   color: #00112c;
   font-family: 'Roboto Slab', serif;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 2.6rem;
 }
 
 /*TEXT FONT STYLES*/
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-weight: 600;
-  font-size: 60px;
-  line-height: 74px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6.4rem;
   text-align: left;
   width: 80%;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 32px;
-  line-height: 42px;
-  font-weight: 600;
-  padding: 24px;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  padding: 2.4rem;
 }
 
 h4,
 h5 {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 h5 {
@@ -53,27 +56,24 @@ h5 {
 }
 
 .landing-info p {
-  padding: 24px 0;
-  font-size: 20px;
-  line-height: 30px;
   width: 90%;
 }
 
 p {
-  font-size: 20px;
-  line-height: 30px;
-  padding: 24px;
+  padding: 2.4rem 0;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 /*STYLES FOR NAV BAR*/
-.wrapper {
+nav {
   margin: 0 auto;
   max-width: 1248px;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
 }
-.nav-left {
-  height: 72px;
+.nav-wrapper {
+  height: 7.rem;
   top: 0;
   width: 100%;
   display: flex;
@@ -83,27 +83,20 @@ p {
   background: #fff;
 }
 
-.nav-left li:nth-child(n + 2) a:hover {
-  border-top: 4px solid transparent;
+.nav-hover-green-border a:hover {
+  border-top: 0.4rem solid transparent;
   border-color: #0abf53;
-  padding-bottom: 22px;
-  padding-top: 20px;
+  padding-bottom: 2.2rem;
+  padding-top: 2rem;
 }
 
-.nav-left li:nth-last-child(1) a:hover {
-  border-top: 4px solid transparent;
-  border-color: transparent;
-  padding-bottom: 22px;
-  padding-top: 20px;
+.nav-element-margin {
+  margin-right: 17.7rem;
 }
 
-.nav-left li:nth-child(5) {
-  margin-right: 177px;
-}
-
-.nav-left img {
-  width: 100px;
-  height: 39px;
+.nav-wrapper img {
+  width: 10rem;
+  height: 3.9rem;
 }
 
 /*STYLES FOR BUTTONS AND LINKS*/
@@ -508,7 +501,7 @@ span {
 }
 
 @media (max-width: 1248px) {
-  .nav-left li:nth-child(n + 2) {
+  .nav-element {
     display: none;
   }
   .fa-bars {
