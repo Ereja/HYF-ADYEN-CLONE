@@ -16,8 +16,32 @@ html {
 body {
   color: #00112c;
   font-family: "Roboto Slab", serif;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
+}
+
+/*SETTTING UP FLEXBOXES */
+
+.nav-wrapper, .information-flex, .payment-flex, .footer-container, .landing-flex, .transactions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-wrapper, .information-flex, .payment-flex, .footer-container {
+  justify-content: space-between;
+}
+
+.landing-flex, .transactions {
+  justify-content: center;
+}
+
+/*CENTERING FOR CONTAINERS OF MAX 1248PX WIDTH*/
+
+nav, .landing, .information-flex, .payment-flex,.transactions, .footer-container {
+  margin: 0 auto;
+  max-width: 1248px;
 }
 
 /*TEXT FONT STYLES*/
@@ -75,8 +99,6 @@ p {
 
 /*STYLES FOR NAV BAR*/
 nav {
-  margin: 0 auto;
-  max-width: 1248px;
   padding-right: 2.4rem;
   padding-left: 2.4rem;
 }
@@ -84,10 +106,6 @@ nav {
   height: 7rem;
   top: 0;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   background: #fff;
 }
 
@@ -140,7 +158,7 @@ nav {
   padding-right: 0;
   padding-left: 0;
   border: 0;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .informatio-button a:link,
@@ -182,17 +200,8 @@ nav {
 
 /*STYLES FOR LANDING SECTION*/
 
-.landing {
-  margin: 0 auto;
-  max-width: 1248px;
-}
-
 .landing-flex {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  align-items: center;
-  justify-content: center;
 }
 
 .landing-info {
@@ -235,12 +244,6 @@ nav {
 }
 
 .information-flex {
-  max-width: 1248px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
   padding-bottom: 10rem;
 }
 .information-container img {
@@ -263,13 +266,7 @@ nav {
 /*STYLE FOR PAYMENT INFORMATION SECTION*/
 
 .payment-flex {
-  max-width: 1248px;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .payments-info {
@@ -327,12 +324,6 @@ nav {
 
 .transactions {
   width: 90%;
-  max-width: 1248px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .transactions h2,
@@ -389,15 +380,9 @@ footer a:visited {
 }
 
 .footer-container {
-  max-width: 1248px;
   width: 100%;
-  margin: 0 auto;
   padding-right: 2.4rem;
   padding-left: 2.4rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .footer-container li {
