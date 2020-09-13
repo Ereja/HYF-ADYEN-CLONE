@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap");
 
 /*RESET*/
 * {
@@ -9,20 +9,28 @@
   text-decoration: none;
 }
 
-html{ 
+html {
   font-size: 62.5%; /*making sure that 1rem = 10px*/
 }
 
 body {
   color: #00112c;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   line-height: 2.6rem;
 }
 
 /*TEXT FONT STYLES*/
 
-h1, h2, h3, h4, h5, .green-button, .informatio-button, .outro-button a {
+h1,
+h2,
+h3,
+h4,
+h5,
+.green-button,
+.informatio-button,
+.outro-button a,
+span {
   font-weight: 600;
 }
 
@@ -101,7 +109,12 @@ nav {
 
 /*STYLES FOR BUTTONS AND LINKS*/
 
-.green-button, .green-button:hover, .outro-button a, .footer-container li a:link, .footer-container li a:visited, .footer-container li a:hover {
+.green-button,
+.green-button:hover,
+.outro-button a,
+.footer-container li a:link,
+.footer-container li a:visited,
+.footer-container li a:hover {
   color: #fff;
 }
 
@@ -130,7 +143,9 @@ nav {
   font-size: 1rem;
 }
 
-.informatio-button a:link, .informatio-button a:visited, .informatio-button a:hover {
+.informatio-button a:link,
+.informatio-button a:visited,
+.informatio-button a:hover {
   color: #0abf53;
 }
 
@@ -181,13 +196,13 @@ nav {
 }
 
 .landing-info {
-  padding-left: 24px;
+  padding-left: 2.4rem;
   flex-basis: 45%;
 }
 
 .landing-video {
   flex-basis: 42%;
-  margin-left: 40px;
+  margin-left: 4rem;
 }
 
 .landing-video video {
@@ -201,13 +216,13 @@ nav {
   grid-template-columns: repeat(6, 1fr);
   justify-items: center;
   align-items: center;
-  padding: 48px 0;
+  padding: 4.8rem 0;
 }
 
 .brands-logo img {
   width: 100%;
-  max-width: 160px;
-  height: 70px;
+  max-width: 16rem;
+  height: 7rem;
 }
 
 /*STYLES FOR INFORMATION ABOUT POSSIBILITIES WITH ADYEN*/
@@ -215,7 +230,7 @@ nav {
 .information-container {
   background: #f3f6f9;
   text-align: center;
-  padding-top: 96px;
+  padding-top: 9.6rem;
   width: 100%;
 }
 
@@ -226,11 +241,11 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 10rem;
 }
 .information-container img {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .growth-flex {
@@ -242,7 +257,7 @@ nav {
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
-  height: 95px;
+  height: 9.5rem;
 }
 
 /*STYLE FOR PAYMENT INFORMATION SECTION*/
@@ -258,13 +273,13 @@ nav {
 }
 
 .payments-info {
-  padding-bottom: 48px;
+  padding-bottom: 4.8rem;
 }
 
 .payments-info h2,
 .center-text {
   width: 50%;
-  max-width: 567px;;
+  max-width: 567px;
   margin: 0 auto;
   text-align: center;
 }
@@ -277,7 +292,7 @@ nav {
   width: 100%;
   max-width: 100%;
   height: auto;
-  margin: 30px 0;
+  margin: 3rem 0;
 }
 
 .payment-left,
@@ -286,28 +301,28 @@ nav {
 }
 
 .payment-left {
-  padding-left: 48px;
+  padding-left: 4.8rem;
 }
 
 .payment-right {
-  padding-left: 48px;
-  padding-right: 24px;
+  padding-left: 4.8rem;
+  padding-right: 2.4rem;
 }
 
 .payment-flex p {
-  padding: 0 0 24px;
+  padding: 0 0 2.4rem;
 }
 
 .payments-info .informatio-button {
-  padding-bottom: 48px;
+  padding-bottom: 4.8rem;
 }
 
 /*TRANSACTIONS SECTION STYLES*/
 
 .transactions-wrapper {
   background: #00112c;
-  padding-bottom: 48px;
-  padding-top: 48px;
+  padding-bottom: 4.8rem;
+  padding-top: 4.8rem;
 }
 
 .transactions {
@@ -329,7 +344,7 @@ nav {
 }
 
 .transactions img {
-  width: 20px;
+  width: 2rem;
 }
 
 .transactions-video video {
@@ -347,7 +362,7 @@ nav {
 
 .transactions-info {
   flex-basis: 23%;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 /*JOURNEY SECTION STYLE*/
@@ -356,14 +371,14 @@ nav {
   background-color: #0abf53;
   color: #fff;
   text-align: center;
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
 }
 
 /*FOOTER STYLES*/
 
 footer {
-  padding-top: 96px;
+  padding-top: 9.6rem;
   padding-bottom: 0;
   background: #00112c;
   color: #fff;
@@ -377,8 +392,8 @@ footer a:visited {
   max-width: 1248px;
   width: 100%;
   margin: 0 auto;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -386,7 +401,7 @@ footer a:visited {
 }
 
 .footer-container li {
-  padding-bottom: 6px;
+  padding-bottom: 0.6rem;
 }
 
 .footer-elements {
@@ -401,53 +416,49 @@ footer a:visited {
 .newslettter form input {
   width: 83%;
   background: transparent;
-  margin: 15px 0;
+  margin: 1.5rem 0;
 }
 
 .newslettter form button {
   position: relative;
   cursor: pointer;
   width: 15%;
-  left: -5px;
+  left: -0.5rem;
 }
 
 .newslettter form input,
 .newslettter form button {
   position: relative;
-  height: 50px;
-  border: 1px solid #a5afbd;
-  padding: 24px 12px 6px 12px;
-  border-radius: 3px;
-  font-size: 16px;
+  height: 5rem;
+  border: 0.1rem solid #a5afbd;
+  padding: 2.4rem 1.2rem 0.6rem 1.2rem;
+  border-radius: 0.3rem;
+  font-size: 1.6;
 }
 
 .newslettter p {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   padding: 0;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .newslettter ul li {
   display: inline-block;
   text-align: center;
-  font-size: 18px;
-  border: 3px solid #374661;
-  margin-right: 12px;
-  padding: 8px;
+  font-size: 1.8rem;
+  border: 0.3rem solid #374661;
+  margin-right: 1.2rem;
+  padding: 0.8rem;
   color: rgba(255, 255, 255, 0.493);
-  width: 44px;
-  height: 44px;
+  width: 4.4rem;
+  height: 4.4rem;
 }
 
 .newslettter ul li:hover {
   cursor: pointer;
   color: #fff;
-  border: 3px solid #fff;
-}
-
-span {
-  font-weight: 600;
+  border: 0.3rem solid #fff;
 }
 
 .copyright,
@@ -468,12 +479,12 @@ span {
 }
 
 .break-line {
-  min-height: 1px;
+  min-height: 0.1rem;
   width: 100%;
   background: rgba(255, 255, 255, 0.315);
-  padding-right: 24px;
-  padding-left: 24px;
-  margin: 24px 0;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+  margin: 2.4rem 0;
 }
 
 /*MEDIA QUERIES*/
@@ -489,22 +500,22 @@ span {
     display: none;
   }
   .fa-bars {
-    padding: 35px 24px;
+    padding: 3.5rem 2.4rem;
     right: 0;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #000;
   }
 }
 
 @media (max-width: 768px) {
   .landing-info {
-    margin-top: 24px;
+    margin-top: 2.4rem;
     flex-basis: 100%;
   }
 
   .landing-video {
     flex-basis: 100%;
-    padding: 0 24px;
+    padding: 0 2.4rem;
     margin: 0;
   }
 
@@ -514,7 +525,7 @@ span {
 
   .growth-flex {
     flex-basis: 100%;
-    margin: 15px;
+    margin: 1.5rem;
   }
 
   .white-space img {
@@ -522,7 +533,7 @@ span {
   }
 
   .payments-info {
-    margin-top: 48px;
+    margin-top: 4.8rem;
   }
 
   .payments-info h2,
@@ -533,7 +544,7 @@ span {
   .payment-left,
   .payment-right {
     flex-basis: 100%;
-    padding: 0 24px;
+    padding: 0 2.4rem;
   }
 
   .transactions-video,
@@ -544,7 +555,7 @@ span {
 
   .footer-elements {
     flex-basis: 50%;
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
   }
 
   .copyright,
