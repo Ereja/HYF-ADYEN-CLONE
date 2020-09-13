@@ -12,7 +12,6 @@
 body {
   color: #00112c;
   font-family: 'Roboto Slab', serif;
-, Helvetica, Arial;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -417,6 +416,7 @@ footer a:visited {
 .footer-2,
 .footer-3,
 .footer-4 {
+  align-self: flex-start;
   flex-basis: 18%;
 }
 
