@@ -22,7 +22,7 @@ body {
 
 /*TEXT FONT STYLES*/
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .green-button, .informatio-button, .outro-button a {
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ nav {
   padding-left: 2.4rem;
 }
 .nav-wrapper {
-  height: 7.rem;
+  height: 7rem;
   top: 0;
   width: 100%;
   display: flex;
@@ -101,21 +101,22 @@ nav {
 
 /*STYLES FOR BUTTONS AND LINKS*/
 
-.green-button {
+.green-button, .green-button:hover, .outro-button a, .footer-container li a:link, .footer-container li a:visited, .footer-container li a:hover {
   color: #fff;
+}
+
+.green-button {
   background-color: #0abf53;
   border: none;
-  line-height: 16px;
-  font-weight: 600;
+  line-height: 1.6rem;
   cursor: pointer;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  margin: 12px 12px 12px 0;
+  margin: 1.2rem 1.2rem 1.2rem 0;
 }
 
 .green-button:hover {
-  color: #fff;
   background-color: #078f3e;
   border-color: #078f3e;
   transition: all 0.2s ease-in-out;
@@ -126,28 +127,22 @@ nav {
   padding-right: 0;
   padding-left: 0;
   border: 0;
-  font-weight: 600;
   font-size: 1rem;
 }
 
-.informatio-button a:link {
-  color: #0abf53;
-}
-
-.informatio-button a:visited {
+.informatio-button a:link, .informatio-button a:visited, .informatio-button a:hover {
   color: #0abf53;
 }
 
 .informatio-button a:hover {
-  color: #0abf53;
   box-shadow: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 0.1rem solid transparent;
   border-color: #0abf53;
-  padding-bottom: 12px;
+  padding-bottom: 1.2rem;
 }
 
 .outro-button {
-  padding: 0 24px;
+  padding: 0 2.4rem;
   margin: 0;
   background-color: #00112c;
   border-color: #00112c;
@@ -155,11 +150,9 @@ nav {
 
 .outro-button a {
   display: inline-block;
-  color: #fff;
-  line-height: 16px;
+  line-height: 1.6rem;
   font-size: 1rem;
-  font-weight: 600;
-  margin: 12px 12px 12px 0;
+  margin: 1.2remx 1.2rem 1.2rem 0;
 }
 
 .outro-button:hover {
@@ -168,16 +161,7 @@ nav {
   border-color: #1b2b44;
 }
 
-.footer-container li a:link {
-  color: #fff;
-}
-
-.footer-container li a:visited {
-  color: #fff;
-}
-
 .footer-container li a:hover {
-  color: #fff;
   text-decoration: underline;
 }
 
