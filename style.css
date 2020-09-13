@@ -412,10 +412,7 @@ footer a:visited {
   padding-bottom: 6px;
 }
 
-.footer-1,
-.footer-2,
-.footer-3,
-.footer-4 {
+.footer-elements {
   align-self: flex-start;
   flex-basis: 18%;
 }
@@ -568,10 +565,7 @@ span {
     flex-basis: 100%;
   }
 
-  .footer-1,
-  .footer-2,
-  .footer-3,
-  .footer-4 {
+  .footer-elements {
     flex-basis: 50%;
     margin-bottom: 25px;
   }
