@@ -23,23 +23,37 @@ body {
 
 /*SETTTING UP FLEXBOXES */
 
-.nav-wrapper, .information-flex, .payment-flex, .footer-container, .landing-flex, .transactions {
+.nav-wrapper,
+.information-flex,
+.payment-flex,
+.footer-container,
+.landing-flex,
+.transactions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.nav-wrapper, .information-flex, .payment-flex, .footer-container {
+.nav-wrapper,
+.information-flex,
+.payment-flex,
+.footer-container {
   justify-content: space-between;
 }
 
-.landing-flex, .transactions {
+.landing-flex,
+.transactions {
   justify-content: center;
 }
 
 /*CENTERING FOR CONTAINERS OF MAX 1248PX WIDTH*/
 
-nav, .landing, .information-flex, .payment-flex,.transactions, .footer-container {
+nav,
+.landing,
+.information-flex,
+.payment-flex,
+.transactions,
+.footer-container {
   margin: 0 auto;
   max-width: 1248px;
 }
@@ -130,7 +144,6 @@ nav {
 .green-button,
 .green-button:hover,
 .outro-button a,
-.footer-container li a:link,
 .footer-container li a:visited,
 .footer-container li a:hover {
   color: #fff;
@@ -161,7 +174,11 @@ nav {
   font-size: 1.6rem;
 }
 
-.informatio-button a:link,
+.nav-wrapper a {
+  color: #000;
+}
+
+.informatio-button a,
 .informatio-button a:visited,
 .informatio-button a:hover {
   color: #0abf53;
@@ -192,6 +209,10 @@ nav {
   cursor: pointer;
   background-color: #1b2b44;
   border-color: #1b2b44;
+}
+
+.footer-container li a {
+  color: #fff;
 }
 
 .footer-container li a:hover {
@@ -255,10 +276,11 @@ nav {
   flex-basis: 32%;
 }
 
-.white-space img {
+.white-space {
+  background-color: #fff;
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   max-width: 100%;
   height: 9.5rem;
 }
