@@ -192,7 +192,7 @@ nav {
 }
 
 .outro-button {
-  padding: 0 2.4rem;
+  padding: 1.5rem 5rem;
   margin: 0;
   background-color: #00112c;
   border-color: #00112c;
@@ -201,7 +201,7 @@ nav {
 .outro-button a {
   display: inline-block;
   line-height: 1.6rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   margin: 1.2remx 1.2rem 1.2rem 0;
 }
 
